@@ -5,7 +5,8 @@
   "author": "",
   "scripts": {
     "start": "nodemon app.js",
-    "dontStart": "echo All done!!!"
+    "dontStart": "echo All done!!!",
+    "deployerPostInit": "npm run dontStart && echo Really!"
   },
   "license": "ISC",
   "dependencies": {
