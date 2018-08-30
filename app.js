@@ -8,5 +8,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(8010, () => {
-  console.log("Deployer app listening on port 8010!");
+  console.log("Hooks app listening on port 8010!");
 });
